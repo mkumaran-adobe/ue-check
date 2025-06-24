@@ -17,7 +17,14 @@
       "columns",
       "fragment",
       "banner",
+      "banner-list",
       "purchase-list"
+    ]
+  },
+  {
+    "id": "banner-list",
+    "components": [
+      "banner-item"
     ]
   },
   {
