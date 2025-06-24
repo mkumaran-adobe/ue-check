@@ -234,7 +234,7 @@
     ]
   },
   {
-    "id": "banner-item",
+    "id": "banner-slide-item",
     "fields": [
       {
         "component": "text-input",
