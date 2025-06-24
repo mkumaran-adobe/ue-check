@@ -14,6 +14,21 @@
           }
         }
       }
+    },
+    {
+      "title": "Banner Item",
+      "id": "banner-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Banner Item",
+              "model": "banner-item"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
@@ -56,7 +71,22 @@
           "valueType": "string"
         }
       ]
+    },
+    {
+      "id": "banner-item",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subtitle",
+          "label": "Subtitle",
+          "value": ""
+        }
+      ]
     }
   ],
-  "filters": []
+  "filters": [{
+    "id": "banner",
+    "components": ["banner-item"]
+  }]
 }
