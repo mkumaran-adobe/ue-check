@@ -78,7 +78,7 @@
       "fields": [
         {
           "component": "text-input",
-          "name": "blockId",
+          "name": "cid",
           "value": "",
           "label": "ID for Block",
           "valueType": "string"
