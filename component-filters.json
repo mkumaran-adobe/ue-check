@@ -18,11 +18,18 @@
       "fragment",
       "banner",
       "banner-list",
-      "purchase-list"
+      "purchase-list",
+      "banner-slide"
     ]
   },
   {
     "id": "banner-list",
+    "components": [
+      "banner-item"
+    ]
+  },
+  {
+    "id": "banner-slide",
     "components": [
       "banner-item"
     ]

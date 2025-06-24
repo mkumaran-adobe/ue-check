@@ -194,6 +194,58 @@
     ]
   },
   {
+    "id": "banner-slide",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Classes",
+        "value": "active"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subtitle",
+        "label": "Subtitle",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "banner-item",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "blockId",
+        "value": "",
+        "label": "ID for Block",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "banner",
     "fields": [
       {
