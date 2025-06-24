@@ -31,7 +31,7 @@
   {
     "id": "banner-slide",
     "components": [
-      "banner-item"
+      "banner-slide-item"
     ]
   },
   {
