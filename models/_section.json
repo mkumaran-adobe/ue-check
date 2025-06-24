@@ -51,7 +51,8 @@
         "cards",
         "columns",
         "fragment",
-        "banner"
+        "banner",
+        "purchase-list"
       ]
     }
   ]

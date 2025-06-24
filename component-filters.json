@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "banner"
+      "banner",
+      "purchase-list"
     ]
   },
   {
@@ -44,6 +45,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "purchase-list",
+    "components": [
+      "purchase-item"
     ]
   }
 ]
