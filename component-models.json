@@ -201,7 +201,7 @@
         "valueType": "string",
         "name": "classes",
         "label": "Classes",
-        "value": ""
+        "value": "active"
       },
       {
         "component": "text",
